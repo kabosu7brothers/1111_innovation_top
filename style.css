@@ -1,4 +1,5 @@
 :root {
+    /*色*/
     --ink: #17231b;
     --muted: #657067;
     --green: #285c43;
@@ -7,6 +8,7 @@
     --paper: #defffd;
     --white: #fff;
     --line: #dfe5d9;
+    /*フォント*/
     --serif: "Yu Mincho", "Hiragino Mincho ProN", serif;
     --sans: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
