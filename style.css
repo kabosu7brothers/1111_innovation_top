@@ -44,6 +44,11 @@ h2 { margin: 0; font-family: var(--serif); font-size: clamp(1.7rem, 4vw, 2.5rem)
 .trait-card { min-height: 185px; display: grid; grid-template-columns: 55% 1fr; overflow: hidden; border: 1px solid var(--line); border-radius: 18px; background: var(--white); transition: transform .2s, box-shadow .2s; }
 .trait-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px #253a2412; }
 .trait-visual { display: grid; place-items: center; min-height: 100%; background: #e7edda; font-size: 4.3rem; }
+.trait-visual img {
+    width: 95%;
+    height: auto;
+    object-fit: contain;
+}
 .trait-card:nth-child(2) .trait-visual { background: #e1edf0; }
 .trait-card:nth-child(3) .trait-visual { background: #f2ead8; }
 .trait-card:nth-child(4) .trait-visual { background: #e8e2ef; }
