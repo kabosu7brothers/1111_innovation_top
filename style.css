@@ -64,6 +64,12 @@ h2 { margin: 0; font-family: var(--serif); font-size: clamp(1.7rem, 4vw, 2.5rem)
 .trait-copy p { margin: 0; color: var(--muted); font-size: .88rem; }
 .closing { margin-top: 58px; padding: 38px 28px; border-radius: 20px; background: var(--green-dark); color: white; text-align: center; }
 /*以下二つは無視してよい*/
+.trait-visual { display: grid; place-items: center; min-height: 100%; background: #e7edda; font-size: 4.3rem; }
+.trait-visual img {
+    width: 95%;
+    height: auto;
+    object-fit: contain;
+}
 .closing p { max-width: 640px; margin: 9px auto 20px; color: #e1e9df; }
 .closing a { display: inline-block; padding: 10px 22px; border-radius: 999px; background: var(--lime); color: #263921; font-size: .9rem; font-weight: 800; }
 footer { padding: 26px 6vw; background: #edf0e8; color: #697369; text-align: center; font-size: .78rem; letter-spacing: .06em; }
