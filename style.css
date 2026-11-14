@@ -234,7 +234,78 @@ h2 {
   color: white;
   text-align: center;
 }
+.trait-card:nth-child(2) .trait-visual {
+  background: #e1edf0;
+}
+.trait-card:nth-child(3) .trait-visual {
+  background: #f2ead8;
+}
+.trait-card:nth-child(4) .trait-visual {
+  background: #e8e2ef;
+}
+.trait-copy {
+  align-self: center;
+  padding: 20px;
+}
+.trait-number {
+  margin: 0 0 3px;
+  color: #81916a;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
+.trait-copy h3 {
+  margin: 0 0 7px;
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  letter-spacing: 0.08em;
+}
+.trait-copy p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+.manga {
+  margin-top: 58px;
+  padding: 38px 28px;
+  border-radius: 20px;
+  background: var(--green-dark);
+  color: white;
+  text-align: center;
+}
+.manga-img {
+  display: grid;
+  place-items: center;
+  min-height: 100%;
+  background: #e7edda;
+  font-size: 4.3rem;
+}
+.manga_img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.closing {
+  margin-top: 58px;
+  padding: 38px 28px;
+  border-radius: 20px;
+  background: var(--green-dark);
+  color: white;
+  text-align: center;
+}
 /*以下二つは無視してよい*/
+.closing-visual {
+  display: grid;
+  place-items: center;
+  min-height: 100%;
+  background: #e7edda;
+  font-size: 4.3rem;
+}
+.closing-visual img {
+  width: 95%;
+  height: auto;
+  object-fit: contain;
+}
 .closing p {
   max-width: 640px;
   margin: 9px auto 20px;
