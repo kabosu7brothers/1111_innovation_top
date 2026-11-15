@@ -296,11 +296,11 @@ h2 {
     ),
     url("images/assets/img/EcosystemDiversity.png");
 
-  background-size: cover;
+   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
-  color: #17231b;
+  color: white;
   text-align: center;
 }
 /*以下二つは無視してよい*/
