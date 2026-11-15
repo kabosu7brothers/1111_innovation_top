@@ -285,18 +285,20 @@ h2 {
   height: auto;
   object-fit: contain;
 }
+
 .closing {
   margin-top: 58px;
   padding: 38px 28px;
   border-radius: 20px;
+
   background:
     linear-gradient(
       rgba(0, 0, 0, 0.55),
       rgba(0, 0, 0, 0.55)
     ),
-    url("images/assets/img/EcosystemDiversity.png");
+    url("./assets/img/EcosystemDiversity.png");
 
-   background-size: cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
