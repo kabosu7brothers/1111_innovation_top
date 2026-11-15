@@ -1,7 +1,7 @@
 /* 全体 */
 body {
   font-family: "Hiragino Sans", "Segoe UI", sans-serif;
-  background-color: #f4f6f8;
+  background-color: #defffd;
   margin: 0;
   max-width: 800px;
   padding: 20px;
@@ -71,7 +71,7 @@ textarea {
   min-height: 150px;
 }
 button {
-  background-color: #0077cc;
+  background-color: #edf0e8;
   padding: 20px;
   font-size:36px;
   color: white;
