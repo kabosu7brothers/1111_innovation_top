@@ -89,7 +89,7 @@ a {
 }
 .main-nav a:hover,
 .main-nav a:focus-visible {
-  color: #6a812b;
+  color: #285c43;
 }
 main {
   width: min(1040px, 88%);
