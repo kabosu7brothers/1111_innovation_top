@@ -10,7 +10,7 @@ body {
 
 .explain p {
   margin: 0;
-  color: var(--muted);
+  color: #657067;
   font-size: 0.9rem;
 }
 
