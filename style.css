@@ -289,8 +289,18 @@ h2 {
   margin-top: 58px;
   padding: 38px 28px;
   border-radius: 20px;
-  background: var(--green-dark);
-  color: white;
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.55),
+      rgba(255, 255, 255, 0.55)
+    ),
+    url("images/");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: #17231b;
   text-align: center;
 }
 /*以下二つは無視してよい*/
