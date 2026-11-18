@@ -19,15 +19,15 @@ document.querySelectorAll('.trait-card').forEach(card => {
 });
 
 // .manga（同じ形で追加）
-const Manga = document.querySelector('.manga');
-if (Manga) {
-  Manga.addEventListener('click', () => {
+const Comic = document.querySelector('.comic');
+if (comic) {
+  Comic.addEventListener('click', () => {
     const img = Manga.querySelector('img');
     
     if (img) {
       modalImg.src = img.src;
       modalImg.alt = img.alt;
-      modalImg.style.backgroundColor = getComputedStyle(Manga).backgroundColor;
+      modalImg.style.backgroundColor = getComputedStyle(Comic).backgroundColor;
       modal.classList.add('is-open');
     }
   });
