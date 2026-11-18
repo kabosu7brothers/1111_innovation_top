@@ -146,9 +146,7 @@ h2 {
   height: auto;
   object-fit: contain;
 }
-.intro-art:hover {
-  cursor: pointer;
-}
+
 /*4つの多様性(以下るい)*/
 .traits {
   padding-top: 48px;
@@ -349,7 +347,9 @@ h2 {
   height: auto;
   object-fit: contain;
 }
-
+.manga-img:hover {
+  cursor: pointer;
+}
 .closing {
   margin-top: 58px;
   padding: 38px 28px;
