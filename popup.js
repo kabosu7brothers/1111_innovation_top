@@ -22,7 +22,7 @@ document.querySelectorAll('.trait-card').forEach(card => {
 const Comic = document.querySelector('.comic');
 if (comic) {
   Comic.addEventListener('click', () => {
-    const img = Manga.querySelector('img');
+    const img = Comic.querySelector('img');
     
     if (img) {
       modalImg.src = img.src;
