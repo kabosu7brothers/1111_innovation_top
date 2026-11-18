@@ -20,7 +20,7 @@ document.querySelectorAll('.trait-card').forEach(card => {
 
 // .manga（同じ形で追加）
 const Comic = document.querySelector('.comic');
-if (comic) {
+if (Comic) {
   Comic.addEventListener('click', () => {
     const img = Comic.querySelector('img');
     
