@@ -195,6 +195,67 @@ h2 {
   height: auto;
   object-fit: contain;
 }
+.trait-visual:hover {
+  cursor: pointer;
+}
+/*ポップアップ*/
+/* ポップアップの背景 */
+.js-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(4px);
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  cursor: zoom-out;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+/* ポップアップ表示時 */
+.js-modal.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* 画像とテキストを縦にまとめる枠 */
+.js-modal-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px; /* 画像と文章の間の余白 */
+  transform: scale(0.95);
+  transition: transform 0.25s ease;
+}
+
+.js-modal.is-open .js-modal-inner {
+  transform: scale(1);
+}
+
+/* 拡大される画像*/
+.js-modal img {
+  width: min(850px, 90vw);
+  max-height: 80vh;
+  object-fit: contain;
+  padding: 24px;
+  background: #e7edda;
+  border-radius: 18px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+/* 画像の下に表示する案内文 */
+.js-modal-note {
+  margin: 0;
+  color: #e4e4e4;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
 .trait-card:nth-child(2) .trait-visual {
   background: #e1edf0;
 }
