@@ -343,7 +343,7 @@ h2 {
   display: grid;
   place-items: center;
   min-height: 100%;
-  background: #e7edda;
+  background: #e7edda00;
   font-size: 4.3rem;
 }
 .manga-img img {
