@@ -10,7 +10,12 @@ body {
   padding: 0;
   text-align: center;
 }
-
+.site-header {
+  background: #2E7D32;
+  color: white;
+  padding: 24px 6vw 18px;
+  text-align: center;
+}
 .chat-container {
   max-width: 800px;
   margin: 0 auto;
