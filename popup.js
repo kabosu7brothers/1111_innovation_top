@@ -1,7 +1,7 @@
 const modal = document.getElementById('js-modal');
 const modalImg = document.getElementById('js-modal-img');
 
-document.querySelectorAll('.trait-card').forEach(card => {
+document.querySelectorAll('.trait-visual').forEach(card => {
   card.addEventListener('click', () => {
     const visual = card.querySelector('.trait-visual');
     const img = card.querySelector('.trait-visual img');
