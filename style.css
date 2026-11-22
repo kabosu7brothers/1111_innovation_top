@@ -63,7 +63,6 @@ a {
 /*.main-nav:メインメニューの見た目*/
 .main-nav {
   width: min(1120px, 90%);
-  position: sticky; 
   top: 12px;
   z-index:100;
   left:0;
