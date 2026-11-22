@@ -62,6 +62,13 @@ a {
   letter-spacing: 0.16em;
 }
 
+.tagline_top {
+  margin: 8px 0 0;
+  color: white;
+  font-size: 0.86rem;
+  letter-spacing: 0.16em;
+}
+
 /*.main-nav:メインメニューの見た目*/
 .main-nav {
   width: min(1120px, 90%);
