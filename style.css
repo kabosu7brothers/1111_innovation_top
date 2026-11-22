@@ -30,6 +30,8 @@ a {
   text-decoration: none;
 }
 .site-header {
+  background: #2E7D32;
+  color: white;
   padding: 24px 6vw 18px;
   text-align: center;
 }
